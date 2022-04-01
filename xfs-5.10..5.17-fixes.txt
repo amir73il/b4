@@ -19,19 +19,8 @@ Changes in [GIT PULL] xfs: fixes for 5.17-rc3:
 Changes in [GIT PULL] xfs: fixes for 5.17-rc1:
   [https://lore.kernel.org/r/20220122010807.GT13540@magnolia]
 --
-- [PATCH] xfs: remove unused xfs_ioctl32.h declarations
-  [https://lore.kernel.org/r/20220118183005.GD13540@magnolia]
---
 - [PATCH 0/2] xfs: a couple misc/small deferred inactivation tweaks
   [https://lore.kernel.org/r/20220113133701.629593-1-bfoster@redhat.com]
-
-=== [GIT PULL] xfs: DMAPI ioctl housecleaning for 5.17-rc1.out ===
-
-=== [GIT PULL] xfs: legacy Irix ioctl housecleaning for 5.17-rc1, part 2.out ===
-Changes in [GIT PULL] xfs: legacy Irix ioctl housecleaning for 5.17-rc1, part 2:
-  [https://lore.kernel.org/r/20220120185920.GP13540@magnolia]
-
-=== [GIT PULL] xfs: legacy Irix ioctl housecleaning for 5.17-rc1, part 1.out ===
 
 === [GIT PULL] xfs: new code for 5.17.out ===
 Changes in [GIT PULL] xfs: new code for 5.17:
@@ -40,20 +29,11 @@ Changes in [GIT PULL] xfs: new code for 5.17:
 - [PATCH] xfs: check sb_meta_uuid for dabuf buffer recovery
   [https://lore.kernel.org/r/20211216001709.3451729-1-david@fromorbit.com]
 --
-- [PATCH] xfs: Fix comments mentioning xfs_ialloc
-  [https://lore.kernel.org/r/1639706519-2239-1-git-send-email-xuyang2018.jy@fujitsu.com]
---
 - [PATCH] xfs: prevent a WARN_ONCE() in xfs_ioc_attr_list()
   [https://lore.kernel.org/r/20211217065453.GB26548@kili]
 --
 - [PATCH v2] xfs: prevent UAF in xfs_log_item_in_current_chkpt
   [https://lore.kernel.org/r/20211217174500.GI27664@magnolia]
---
-- [PATCH] xfs: sysfs: use default_groups in kobj_type
-  [https://lore.kernel.org/r/20211228144641.392347-1-gregkh@linuxfoundation.org]
---
-- [PATCH v2] xfs: Remove redundant assignment of mp
-  [https://lore.kernel.org/r/20220105151536.39062-1-jiapeng.chong@linux.alibaba.com]
 --
 - [PATCH] xfs: hold quota inode ILOCK_EXCL until the end of dqalloc
   [https://lore.kernel.org/r/20220104234216.GI31583@magnolia]
@@ -81,41 +61,19 @@ Changes in [GIT PULL] xfs: bug fixes for 5.16-rc2:
 --
 - [PATCH v2] xfs: Fix the free logic of state in xfs_attr_node_hasname
   [https://lore.kernel.org/r/1635750020-2275-1-git-send-email-xuyang2018.jy@fujitsu.com]
---
-- [PATCH] xfs: remove xfs_inew_wait
-  [https://lore.kernel.org/r/20211115095643.91254-1-hch@lst.de]
-
-=== [GIT PULL] xfs: cleanups and resyncs for 5.16.out ===
-Changes in [GIT PULL] xfs: cleanups and resyncs for 5.16:
-  [https://lore.kernel.org/r/20211114172309.GE24307@magnolia]
---
-- [PATCH 0/3] xfs: #ifdef out perag code for userspace
-  [https://lore.kernel.org/r/a98ed48b-7297-34af-2a2a-795b15b35f12@redhat.com]
 
 === [GIT PULL] xfs: new code for 5.16.out ===
 Changes in [GIT PULL] xfs: new code for 5.16:
   [https://lore.kernel.org/r/20211102184650.GH24307@magnolia]
 --
-- [PATCH][next] xfs: Use kvcalloc() instead of kvzalloc()
-  [https://lore.kernel.org/r/20210928223307.GA295934@embeddedor]
---
 - [PATCH v4] slob: add size header to all allocations
   [https://lore.kernel.org/r/20211122013026.909933-1-rkovhaev@gmail.com]
---
-- [PATCHSET 00/48] xfsprogs: sync libxfs with 5.16
-  [https://lore.kernel.org/r/164263819185.865554.6000499997543946756.stgit@magnolia]
 --
 - [PATCHSET RFC v2 chandan 00/15] xfs: support dynamic btree cursor height
   [https://lore.kernel.org/r/163244677169.2701302.12882919857957905332.stgit@magnolia]
 --
 - [PATCHSET RFC chandan 00/14] xfs: support dynamic btree cursor height
   [https://lore.kernel.org/r/163192854958.416199.3396890438240296942.stgit@magnolia]
---
-- [PATCH 1/3] xfs: remove the xfs_dinode_t typedef
-  [https://lore.kernel.org/r/20210812084343.27934-2-hch@lst.de]
---
-- [PATCH] xfs: replace snprintf in show functions with sysfs_emit
-  [https://lore.kernel.org/r/1634095771-4671-1-git-send-email-wangqing@vivo.com]
 --
 - [PATCH v3 0/4] xfs: fix perag iteration raciness
   [https://lore.kernel.org/r/20211014175902.1519172-1-bfoster@redhat.com]
@@ -126,20 +84,11 @@ Changes in [GIT PULL] xfs: new code for 5.16:
 - [PATCHSET v3 00/15] xfs: support dynamic btree cursor height
   [https://lore.kernel.org/r/163408155346.4151249.8364703447365270670.stgit@magnolia]
 --
-- [PATCHSET v2 0/2] xfs: clean up zone terminology
-  [https://lore.kernel.org/r/163466951226.2234337.10978241003370731405.stgit@magnolia]
---
 - [PATCHSET 0/5] xfs: use slab caches for deferred log items
   [https://lore.kernel.org/r/163466952709.2235671.6966476326124447013.stgit@magnolia]
 --
 - [PATCH] xfs: punch out data fork delalloc blocks on COW writeback failure
   [https://lore.kernel.org/r/20211021163330.1886516-1-bfoster@redhat.com]
---
-- [PATCH] xfs: Remove duplicated include in xfs_super
-  [https://lore.kernel.org/r/20211026014807.27554-1-wanjiabing@vivo.com]
---
-- [PATCH] xfs: use swap() to make code cleaner
-  [https://lore.kernel.org/r/20211104062427.1506328-1-yang.guang5@zte.com.cn]
 
 === [GIT PULL] xfs: new code for 5.15.out ===
 Changes in [GIT PULL] xfs: new code for 5.15:
@@ -166,9 +115,6 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 - [PATCH v25 00/14] Log Attribute Replay
   [https://lore.kernel.org/r/20211117041613.3050252-1-allison.henderson@oracle.com]
 --
-- [PATCH] fs:xfs: cleanup __FUNCTION__ usage
-  [https://lore.kernel.org/r/20210711085153.95856-1-dwaipayanray1@gmail.com]
---
 - [PATCH 0/9 v3] xfs: shutdown is a racy mess
   [https://lore.kernel.org/r/20210810051825.40715-1-david@fromorbit.com]
 --
@@ -187,23 +133,11 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 - [PATCHSET 0/2] xfs: more random tweaks
   [https://lore.kernel.org/r/162872993519.1220748.15526308019664551101.stgit@magnolia]
 --
-- [PATCHSET 00/10] xfs: constify btree operations
-  [https://lore.kernel.org/r/162881108307.1695493.3416792932772498160.stgit@magnolia]
---
-- [PATCH] xfs: remove support for untagged lookups in xfs_icwalk*
-  [https://lore.kernel.org/r/20210813081623.83323-1-hch@lst.de]
---
-- [PATCHSET 00/15] xfs: clean up ftrace field tags and formats
-  [https://lore.kernel.org/r/162924373176.761813.10896002154570305865.stgit@magnolia]
---
 - [PATCH 00/16 v3] xfs: rework feature flags
   [https://lore.kernel.org/r/20210818235935.149431-1-david@fromorbit.com]
 --
 - [PATCH 0/10] xfs: feature flag rework
   [https://lore.kernel.org/r/20180820044851.414-1-david@fromorbit.com]
---
-- [PATCH 0/3 v2] xfs: clean up buffer cache disk addressing
-  [https://lore.kernel.org/r/20210819000055.149955-1-david@fromorbit.com]
 --
 - [PATCH] xfs: fix perag structure refcounting error when scrub fails
   [https://lore.kernel.org/r/20210820050647.GW12640@magnolia]
@@ -250,9 +184,6 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
 Changes in [GIT PULL] xfs: new code for 5.14:
   [https://lore.kernel.org/r/20210702201643.GA13765@locust]
 --
-- [PATCH 00/10] xfs: buffer bulk page allocation and cleanups
-  [https://lore.kernel.org/r/20210526224722.1111377-1-david@fromorbit.com]
---
 - [PATCH] xfs: use alloc_pages_bulk_array() for buffers
   [https://lore.kernel.org/r/20210519010733.449999-1-david@fromorbit.com]
 --
@@ -268,35 +199,14 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 - [PATCH] xfs: perag may be null in xfs_imap()
   [https://lore.kernel.org/r/20210610223747.GR664593@dread.disaster.area]
 --
-- [PATCH] xfs: sort variable alphabetically to avoid repeated declaration
-  [https://lore.kernel.org/r/1622181328-9852-1-git-send-email-zhangshaokun@hisilicon.com]
---
-- [PATCH] xfs: Remove redundant assignment to busy
-  [https://lore.kernel.org/r/1620903078-58184-1-git-send-email-jiapeng.chong@linux.alibaba.com]
---
-- [PATCH] xfs: mark xfs_bmap_set_attrforkoff static
-  [https://lore.kernel.org/r/20210225081355.139766-1-hch@lst.de]
---
 - [PATCH] xfs: don't take a spinlock unconditionally in the DIO fastpath
   [https://lore.kernel.org/r/20210602215802.24753-1-david@fromorbit.com]
---
-- [PATCHSET v6 00/15] xfs: clean up incore inode walk functions
-  [https://lore.kernel.org/r/162267269663.2375284.15885514656776142361.stgit@locust]
---
-- RFC: buffer cache backing page allocation cleanup
-  [https://lore.kernel.org/r/20210519190900.320044-1-hch@lst.de]
 --
 - [PATCH] xfs: drop the AGI being passed to xfs_check_agi_freecount
   [https://lore.kernel.org/r/20210607041529.392451-1-david@fromorbit.com]
 --
 - [PATCHSET v3 0/3] xfs: preserve inode health reports for longer
   [https://lore.kernel.org/r/162300204472.1202529.17352653046483745148.stgit@locust]
---
-- [PATCHSET 0/2] xfs: rename struct xfs_eofblocks
-  [https://lore.kernel.org/r/162268997425.2724263.18220495607834735216.stgit@locust]
---
-- [PATCH] xfs: remove redundant initialization of variable error
-  [https://lore.kernel.org/r/1622883170-33317-1-git-send-email-zhangshaokun@hisilicon.com]
 --
 - [PATCH 00/39 v5] xfs: CIL and log optimisations
   [https://lore.kernel.org/r/20210603052240.171998-1-david@fromorbit.com]
@@ -312,9 +222,6 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 --
 - [PATCHSET v7 00/16] xfs: deferred inode inactivation
   [https://lore.kernel.org/r/162360479631.1530792.17147217854887531696.stgit@locust]
---
-- [PATCHSET v2 0/3] xfs: various small fixes and cleanups
-  [https://lore.kernel.org/r/162404243382.2377241.18273624393083430320.stgit@locust]
 --
 - [PATCHSET 0/2] xfs: minor fixes to log recovery problems
   [https://lore.kernel.org/r/162388773802.3427167.4556309820960423454.stgit@locust]
@@ -344,9 +251,6 @@ Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
 - [PATCH v3] xfs: validate extsz hints against rt extent size when rtinherit is set
   [https://lore.kernel.org/r/20210525061531.GF202121@locust]
 --
-- [PATCH] xfs: add new IRC channel to MAINTAINERS
-  [https://lore.kernel.org/r/20210526052038.GX202121@locust]
---
 - [PATCH 0/6] xfs: bunmapi needs updating for deferred freeing
   [https://lore.kernel.org/r/20210527045202.1155628-1-david@fromorbit.com]
 
@@ -363,12 +267,6 @@ Changes in [GIT PULL] xfs: fixes for 5.13-rc3:
 === [GIT PULL] xfs: more new code for 5.13.out ===
 Changes in [GIT PULL] xfs: more new code for 5.13:
   [https://lore.kernel.org/r/20210507003244.GF8582@magnolia]
---
-- [PATCH] xfs: rename xfs_ictimestamp_t
-  [https://lore.kernel.org/r/20210420162603.4057289-1-hch@lst.de]
---
-- [PATCH v2] xfs: remove obsolete AGF counter debugging
-  [https://lore.kernel.org/r/20210427000204.GC3122264@magnolia]
 --
 - [PATCH] xfs: don't check agf_btreeblks on pre-lazysbcount filesystems
   [https://lore.kernel.org/r/20210425154659.GA3122264@magnolia]
@@ -420,9 +318,6 @@ Changes in [GIT PULL] xfs: fixes for 5.12-rc4:
 - [PATCHSET v2 0/4] xfs: small fixes for 5.12
   [https://lore.kernel.org/r/161514874040.698643.2749449122589431232.stgit@magnolia]
 --
-- [PATCH] docs: ABI: Fix the spelling oustanding to outstanding in the file sysfs-fs-xfs
-  [https://lore.kernel.org/r/20210213152436.1639458-1-unixbhaskar@gmail.com]
---
 - [PATCH] xfs: also reject BULKSTAT_SINGLE in a mount user namespace
   [https://lore.kernel.org/r/20210312061941.1362951-1-hch@lst.de]
 
@@ -452,9 +347,6 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 - [PATCH V15 00/16] Bail out if transaction can cause extent count to overflow
   [https://lore.kernel.org/r/20210126063232.3648053-1-chandanrlinux@gmail.com]
 --
-- [PATCH v3] xfs: remove a stale comment from xfs_file_aio_write_checks()
-  [https://lore.kernel.org/r/20210112191024.65206-1-ebiggers@kernel.org]
---
 - [RFC] xfs: fix up non-directory creation in SGID directories when umask S_IXGRP
   [https://lore.kernel.org/r/1647929219-5388-1-git-send-email-xuyang2018.jy@fujitsu.com]
 --
@@ -467,29 +359,14 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 - [PATCH v2 0/9] xfs: rework log quiesce to cover the log
   [https://lore.kernel.org/r/20210121154526.1852176-1-bfoster@redhat.com]
 --
-- [PATCH] xfs: remove xfs_quiesce_attr declaration
-  [https://lore.kernel.org/r/20210414145724.GZ3957620@magnolia]
---
 - [PATCH 1/2] xfs: refactor xfs_file_fsync
   [https://lore.kernel.org/r/20210111161544.1414409-2-hch@lst.de]
 --
-- [PATCH] xfs: Fix 'set but not used' warning in xfs_bmap_compute_alignments()
-  [https://lore.kernel.org/r/20210127090537.2640164-1-chandanrlinux@gmail.com]
---
-- [PATCHSET v6 00/16] xfs: minor cleanups of the quota functions
+- [PATCH 01/16] xfs: fix chown leaking delalloc quota blocks when fssetxattr fails
   [https://lore.kernel.org/r/161223139756.491593.10895138838199018804.stgit@magnolia]
---
-- [PATCHSET v4 00/13] xfs: minor cleanups of the quota functions
-  [https://lore.kernel.org/r/161188658869.1943645.4527151504893870676.stgit@magnolia]
 --
 - [PATCHSET v7 00/12] xfs: try harder to reclaim space when we run out
   [https://lore.kernel.org/r/161214512641.140945.11651856181122264773.stgit@magnolia]
---
-- [PATCHSET v2 0/7] xfs: consolidate posteof and cowblocks cleanup
-  [https://lore.kernel.org/r/161040739544.1582286.11068012972712089066.stgit@magnolia]
---
-- [PATCHSET v5 00/11] xfs: consolidate posteof and cowblocks cleanup
-  [https://lore.kernel.org/r/161181381898.1525433.10723801103841220046.stgit@magnolia]
 --
 - [PATCH] libxfs: expose inobtcount in xfs geometry
   [https://lore.kernel.org/r/20210105162254.706534-1-zlang@redhat.com]
@@ -500,14 +377,8 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 - [PATCH] xfs: fix incorrect root dquot corruption error when switching group/project quota types
   [https://lore.kernel.org/r/20210202193945.GP7193@magnolia]
 --
-- [PATCH] xfs: fix rst syntax error in admin guide
-  [https://lore.kernel.org/r/20210209021843.GP7193@magnolia]
---
 - [PATCH] xfs: restore shutdown check in mapped write fault path
   [https://lore.kernel.org/r/20210210170112.172734-1-bfoster@redhat.com]
---
-- [PATCH] xfs: fix boolreturn.cocci warnings
-  [https://lore.kernel.org/r/20210210200916.GA96657@7319c0dab462]
 --
 - [PATCH] xfs: consider shutdown in bmapbt cursor delete assert
   [https://lore.kernel.org/r/20210211143911.289537-1-bfoster@redhat.com]
@@ -534,35 +405,14 @@ Changes in [GIT PULL] xfs: new code for 5.11:
 - [RFC PATCH 0/3]xfs: random fixes for disk quota
   [https://lore.kernel.org/r/1600765442-12146-1-git-send-email-kaixuxia@tencent.com]
 --
-- [RFC PATCH] xfs: remove unnecessary null check in xfs_generic_create
-  [https://lore.kernel.org/r/1602232150-28805-1-git-send-email-kaixuxia@tencent.com]
---
-- [PATCH] xfs: remove the unused XFS_B_FSB_OFFSET macro
-  [https://lore.kernel.org/r/1603169666-16106-1-git-send-email-kaixuxia@tencent.com]
---
 - [PATCH] xfs: show the proper user quota options
   [https://lore.kernel.org/r/1606124332-22100-1-git-send-email-kaixuxia@tencent.com]
 --
 - [PATCH v3 RESEND] xfs: introduce xfs_validate_stripe_geometry()
   [https://lore.kernel.org/r/20201014074550.20552-1-hsiangkao@redhat.com]
 --
-- [PATCH v2] xfs: remove unneeded return value check for *init_cursor()
-  [https://lore.kernel.org/r/1607050104-60778-1-git-send-email-joseph.qi@linux.alibaba.com]
---
 - [PATCH] xfs: fix the forward progress assertion in xfs_iwalk_run_callbacks
   [https://lore.kernel.org/r/20201208171651.GA1943235@magnolia]
 --
 - [PATCH 0/2] xfs: fix up some reflink+dax interactions
   [https://lore.kernel.org/r/1d87a83e-ba03-b735-f19a-955a09bcdcf7@redhat.com]
---
-- [PATCH v5 0/6] xfs: some xfs_dialloc() cleanup
-  [https://lore.kernel.org/r/20201209112820.114863-1-hsiangkao@redhat.com]
---
-- [PATCH 1/2] xfs: remove xfs_vn_setattr_nonsize
-  [https://lore.kernel.org/r/20201210054821.2704734-2-hch@lst.de]
---
-- [PATCH -next] fs/xfs: convert comma to semicolon
-  [https://lore.kernel.org/r/20201211084112.1931-1-zhengyongjun3@huawei.com]
---
-- [PATCH] xfs: remove xfs_buf_t typedef
-  [https://lore.kernel.org/r/20201217003854.GD6918@magnolia]
