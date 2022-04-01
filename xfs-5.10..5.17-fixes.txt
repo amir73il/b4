@@ -68,9 +68,6 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 - [PATCH 0/5 v2] xfs: strictly order log start records
   [https://lore.kernel.org/r/20210714033656.2621741-1-david@fromorbit.com]
 --
-- [PATCHSET 0/3] xfs: fix various bugs in fsmap
-  [https://lore.kernel.org/r/162872991654.1220643.136984377220187940.stgit@magnolia]
---
 - [PATCHSET 0/2] xfs: more random tweaks
   [https://lore.kernel.org/r/162872993519.1220748.15526308019664551101.stgit@magnolia]
 --
@@ -96,18 +93,6 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
 --
 - [PATCH] xfs: reset child dir '..' entry when unlinking child
   [https://lore.kernel.org/r/20210703030233.GD24788@locust]
---
-- [PATCH] xfs: correct the narrative around misaligned rtinherit/extszinherit dirs
-  [https://lore.kernel.org/r/20210709041152.GN11588@locust]
---
-- [RFC PATCH] xfs: test adding realtime sections to filesystem
-  [https://lore.kernel.org/r/20210709041437.GQ11588@locust]
---
-- [PATCHSET 0/2] xfs: small fixes to realtime growfs
-  [https://lore.kernel.org/r/162612763990.39052.10884597587360249026.stgit@magnolia]
---
-- [PATCH] xfs: detect misaligned rtinherit directory extent size hints
-  [https://lore.kernel.org/r/20210714213542.GK22402@magnolia]
 
 === [GIT PULL] xfs: new code for 5.14.out ===
 Changes in [GIT PULL] xfs: new code for 5.14:
@@ -141,18 +126,12 @@ Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
 - [PATCHSET v2 0/2] xfs: strengthen validation of extent size hints
   [https://lore.kernel.org/r/162181807472.202929.18194381144862527586.stgit@locust]
 --
-- [PATCH v3] xfs: validate extsz hints against rt extent size when rtinherit is set
-  [https://lore.kernel.org/r/20210525061531.GF202121@locust]
---
 - [PATCH 0/6] xfs: bunmapi needs updating for deferred freeing
   [https://lore.kernel.org/r/20210527045202.1155628-1-david@fromorbit.com]
 
 === [GIT PULL] xfs: fixes for 5.13-rc3.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc3:
   [https://lore.kernel.org/r/20210522041115.GB15971@magnolia]
---
-- [PATCHSET 0/2] xfs: realtime allocator fixes
-  [https://lore.kernel.org/r/162007768318.836421.15582644026342097489.stgit@magnolia]
 --
 - [PATCHSET 0/2] xfs: random pending stuff for 5.13
   [https://lore.kernel.org/r/162086768823.3685697.11936501771461638870.stgit@magnolia]
@@ -193,9 +172,6 @@ Changes in [GIT PULL] xfs: fixes for 5.12-rc4:
 === [GIT PULL] xfs: fixes for 5.12-rc1.out ===
 Changes in [GIT PULL] xfs: fixes for 5.12-rc1:
   [https://lore.kernel.org/r/20210227173725.GE7272@magnolia]
---
-- [PATCH v2] xfs: restore speculative_cow_prealloc_lifetime sysctl
-  [https://lore.kernel.org/r/20210212214802.GN7193@magnolia]
 --
 - [PATCH] xfs: don't reuse busy extents on extent trim
   [https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com]
