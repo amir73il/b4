@@ -133,12 +133,6 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 - [PATCHSET 0/2] xfs: more random tweaks
   [https://lore.kernel.org/r/162872993519.1220748.15526308019664551101.stgit@magnolia]
 --
-- [PATCH 00/16 v3] xfs: rework feature flags
-  [https://lore.kernel.org/r/20210818235935.149431-1-david@fromorbit.com]
---
-- [PATCH 0/10] xfs: feature flag rework
-  [https://lore.kernel.org/r/20180820044851.414-1-david@fromorbit.com]
---
 - [PATCH] xfs: fix perag structure refcounting error when scrub fails
   [https://lore.kernel.org/r/20210820050647.GW12640@magnolia]
 --
@@ -356,11 +350,8 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 - [PATCH] xfs: set inode size after creating symlink
   [https://lore.kernel.org/r/20210121151912.4429-1-jeffrey.mitchell@starlab.io]
 --
-- [PATCH v2 0/9] xfs: rework log quiesce to cover the log
-  [https://lore.kernel.org/r/20210121154526.1852176-1-bfoster@redhat.com]
---
-- [PATCH 1/2] xfs: refactor xfs_file_fsync
-  [https://lore.kernel.org/r/20210111161544.1414409-2-hch@lst.de]
+- [PATCH v2 1/9] xfs: sync lazy sb accounting on quiesce of read-only mounts
+  [https://lore.kernel.org/r/20210121154526.1852176-2-bfoster@redhat.com]
 --
 - [PATCH 01/16] xfs: fix chown leaking delalloc quota blocks when fssetxattr fails
   [https://lore.kernel.org/r/161223139756.491593.10895138838199018804.stgit@magnolia]
@@ -395,9 +386,6 @@ Changes in [GIT PULL] xfs: new code for 5.11:
 --
 - [PATCH 0/3] xfs: random fixes for 5.11
   [https://lore.kernel.org/r/160704436050.736504.11280764290946254498.stgit@magnolia]
---
-- [PATCH 0/4] xfs: refactor extent validation for 5.11
-  [https://lore.kernel.org/r/160729625074.1608297.13414859761208067117.stgit@magnolia]
 --
 - [PATCH v6 0/3] xfs: random fixes for disk quota
   [https://lore.kernel.org/r/1602819508-29033-1-git-send-email-kaixuxia@tencent.com]
