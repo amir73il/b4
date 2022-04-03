@@ -81,8 +81,8 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 Changes in [GIT PULL] xfs: bug fixes for 5.14-rc4:
   [https://lore.kernel.org/r/20210731213740.GN3601443@magnolia]
 --
-- [PATCH 0/11 v3] xfs: fix log cache flush regressions and bugs
-  [https://lore.kernel.org/r/20210727071012.3358033-1-david@fromorbit.com]
+- [PATCH 09/11] xfs: Enforce attr3 buffer recovery order
+  [https://lore.kernel.org/r/20210727071012.3358033-10-david@fromorbit.com]
 --
 - [PATCH] [RFC] xfs: logging the on disk inode LSN can make it go backwards
   [https://lore.kernel.org/r/20210722110247.3086929-1-david@fromorbit.com]
@@ -98,26 +98,11 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
 Changes in [GIT PULL] xfs: new code for 5.14:
   [https://lore.kernel.org/r/20210702201643.GA13765@locust]
 --
-- [PATCHSET v3 0/3] xfs: preserve inode health reports for longer
-  [https://lore.kernel.org/r/162300204472.1202529.17352653046483745148.stgit@locust]
---
-- [PATCH] xfs: Fix 64-bit division on 32-bit in xlog_state_switch_iclogs()
-  [https://lore.kernel.org/r/20210610110001.2805317-1-geert@linux-m68k.org]
---
-- [PATCH 0/8 V2] xfs: log fixes for for-next
-  [https://lore.kernel.org/r/20210617082617.971602-1-david@fromorbit.com]
---
 - [PATCHSET 0/2] xfs: minor fixes to log recovery problems
   [https://lore.kernel.org/r/162388773802.3427167.4556309820960423454.stgit@locust]
 --
 - [PATCH v2 0/2] xfs: fix buffer use after free on unpin abort
   [https://lore.kernel.org/r/20210621131644.128177-1-bfoster@redhat.com]
---
-- [PATCH] xfs: Initialize error in xfs_attr_remove_iter
-  [https://lore.kernel.org/r/20210622210852.9511-1-allison.henderson@oracle.com]
---
-- [PATCH 0/4] xfs: fix CIL shutdown UAF and shutdown hang
-  [https://lore.kernel.org/r/20210622040604.1290539-1-david@fromorbit.com]
 
 === [GIT PULL] xfs: fixes for 5.13-rc4.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
