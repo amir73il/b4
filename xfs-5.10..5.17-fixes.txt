@@ -53,26 +53,14 @@ Changes in [GIT PULL] xfs: new code for 5.16:
 Changes in [GIT PULL] xfs: new code for 5.15:
   [https://lore.kernel.org/r/20210831211847.GC9959@magnolia]
 --
-- RFC: don't allow disabling quota accounting on a mounted file system
-  [https://lore.kernel.org/r/20210420072256.2326268-1-hch@lst.de]
---
-- [PATCHSET 0/5] xfs: other stuff for 5.15
-  [https://lore.kernel.org/r/162814684332.2777088.14593133806068529811.stgit@magnolia]
+- [PATCH 1/2] xfs: remove support for disabling quota accounting on a mounted file system
+  [https://lore.kernel.org/r/20210420072256.2326268-2-hch@lst.de]
 --
 - [PATCH 1/3] mm: Add kvrealloc()
   [https://lore.kernel.org/r/20210714023440.2608690-2-david@fromorbit.com]
 --
-- [PATCH 0/9 v3] xfs: shutdown is a racy mess
-  [https://lore.kernel.org/r/20210810051825.40715-1-david@fromorbit.com]
---
-- [PATCH 0/5 v2] xfs: strictly order log start records
-  [https://lore.kernel.org/r/20210714033656.2621741-1-david@fromorbit.com]
---
-- [PATCHSET 0/2] xfs: more random tweaks
-  [https://lore.kernel.org/r/162872993519.1220748.15526308019664551101.stgit@magnolia]
---
-- [RFC PATCH] generic: regression test for a FALLOC_FL_UNSHARE bug in XFS
-  [https://lore.kernel.org/r/20210824003835.GD12640@magnolia]
+- [PATCH] xfs: only set IOMAP_F_SHARED when providing a srcmap to a write
+  [https://lore.kernel.org/r/20210824003739.GC12640@magnolia]
 --
 - [PATCH] xfs: fix I_DONTCACHE
   [https://lore.kernel.org/r/20210824023208.392670-1-david@fromorbit.com]
