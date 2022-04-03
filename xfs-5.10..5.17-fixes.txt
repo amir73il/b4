@@ -123,18 +123,12 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
   [https://lore.kernel.org/r/20210529171212.GQ2402049@locust]
 --
-- [PATCHSET v2 0/2] xfs: strengthen validation of extent size hints
-  [https://lore.kernel.org/r/162181807472.202929.18194381144862527586.stgit@locust]
---
-- [PATCH 0/6] xfs: bunmapi needs updating for deferred freeing
-  [https://lore.kernel.org/r/20210527045202.1155628-1-david@fromorbit.com]
+- [PATCH 2/6] xfs: bunmapi has unnecessary AG lock ordering issues
+  [https://lore.kernel.org/r/20210527045202.1155628-3-david@fromorbit.com]
 
 === [GIT PULL] xfs: fixes for 5.13-rc3.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc3:
   [https://lore.kernel.org/r/20210522041115.GB15971@magnolia]
---
-- [PATCHSET 0/2] xfs: random pending stuff for 5.13
-  [https://lore.kernel.org/r/162086768823.3685697.11936501771461638870.stgit@magnolia]
 
 === [GIT PULL] xfs: more new code for 5.13.out ===
 Changes in [GIT PULL] xfs: more new code for 5.13:
@@ -145,9 +139,6 @@ Changes in [GIT PULL] xfs: more new code for 5.13:
 --
 - [PATCH] xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
   [https://lore.kernel.org/r/20210429054416.GJ1251862@magnolia]
---
-- [PATCH v2] xfs: don't allow log writes if the data device is readonly
-  [https://lore.kernel.org/r/20210430151500.GQ3122264@magnolia]
 
 === [GIT PULL] xfs: new code for 5.13.out ===
 Changes in [GIT PULL] xfs: new code for 5.13:
