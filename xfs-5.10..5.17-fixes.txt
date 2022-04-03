@@ -1,10 +1,3 @@
-=== [GIT PULL] xfs: fixes for 5.17-rc6.out ===
-Changes in [GIT PULL] xfs: fixes for 5.17-rc6:
-  [https://lore.kernel.org/r/20220226050421.GZ8313@magnolia]
---
-- [PATCH] xfs: only bother with sync_filesystem during readonly remount
-  [https://lore.kernel.org/r/20220208200908.GD8313@magnolia]
-
 === [GIT PULL] xfs: fixes for 5.17-rc3.out ===
 Changes in [GIT PULL] xfs: fixes for 5.17-rc3:
   [https://lore.kernel.org/r/20220205025606.GX8313@magnolia]
@@ -12,8 +5,8 @@ Changes in [GIT PULL] xfs: fixes for 5.17-rc3:
 - [PATCHSET 0/1] xfs: tighten GETBMAP input validation
   [https://lore.kernel.org/r/164316351504.2600306.5900193386929839795.stgit@magnolia]
 --
-- [PATCH 0/5 v2] xfs: fallocate() vs xfs_update_prealloc_flags()
-  [https://lore.kernel.org/r/20220131233920.784181-1-david@fromorbit.com]
+- [PATCH 2/5] xfs: fallocate() should call file_modified()
+  [https://lore.kernel.org/r/20220131233920.784181-3-david@fromorbit.com]
 
 === [GIT PULL] xfs: new code for 5.17.out ===
 Changes in [GIT PULL] xfs: new code for 5.17:
@@ -22,8 +15,11 @@ Changes in [GIT PULL] xfs: new code for 5.17:
 - [PATCH] xfs: check sb_meta_uuid for dabuf buffer recovery
   [https://lore.kernel.org/r/20211216001709.3451729-1-david@fromorbit.com]
 --
-- [PATCH] xfs: prevent a WARN_ONCE() in xfs_ioc_attr_list()
-  [https://lore.kernel.org/r/20211217065453.GB26548@kili]
+- [PATCH 1/2] xfs: refactor xfs_file_fsync
+  [https://lore.kernel.org/r/20210111161544.1414409-2-hch@lst.de]
+--
+- [PATCH 09/39] xfs: xfs_log_force_lsn isn't passed a LSN
+  [https://lore.kernel.org/r/20210603052240.171998-10-david@fromorbit.com]
 --
 - [PATCH v2] xfs: prevent UAF in xfs_log_item_in_current_chkpt
   [https://lore.kernel.org/r/20211217174500.GI27664@magnolia]
