@@ -163,11 +163,8 @@ Changes in [GIT PULL] xfs: new code for 5.13:
 Changes in [GIT PULL] xfs: fixes for 5.12-rc4:
   [https://lore.kernel.org/r/20210318191436.GL22100@magnolia]
 --
-- [PATCHSET v2 0/4] xfs: small fixes for 5.12
-  [https://lore.kernel.org/r/161514874040.698643.2749449122589431232.stgit@magnolia]
---
-- [PATCH] xfs: also reject BULKSTAT_SINGLE in a mount user namespace
-  [https://lore.kernel.org/r/20210312061941.1362951-1-hch@lst.de]
+- [PATCH 3/4] xfs: force log and push AIL to clear pinned inodes when aborting mount
+  [https://lore.kernel.org/r/161514875722.698643.971171271199400538.stgit@magnolia]
 
 === [GIT PULL] xfs: fixes for 5.12-rc1.out ===
 Changes in [GIT PULL] xfs: fixes for 5.12-rc1:
@@ -175,12 +172,6 @@ Changes in [GIT PULL] xfs: fixes for 5.12-rc1:
 --
 - [PATCH] xfs: don't reuse busy extents on extent trim
   [https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com]
---
-- [PATCH v2] xfs: don't nest transactions when scanning for eofblocks
-  [https://lore.kernel.org/r/20210219172341.GD7193@magnolia]
---
-- [PATCH v2] xfs: use current->journal_info for detecting transaction recursion
-  [https://lore.kernel.org/r/20210223060840.GV4662@dread.disaster.area]
 
 === [GIT PULL] xfs: new code for 5.12.out ===
 Changes in [GIT PULL] xfs: new code for 5.12:
