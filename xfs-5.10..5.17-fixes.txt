@@ -32,8 +32,8 @@ Changes in [GIT PULL] xfs: new code for 5.17:
 Changes in [GIT PULL] xfs: bug fixes for 5.16-rc4:
   [https://lore.kernel.org/r/20211211172242.GH1218082@magnolia]
 --
-- [PATCHSET 5.16-rcX 0/2] xfs: fix data corruption when cycling ro/rw mounts
-  [https://lore.kernel.org/r/163890213974.3375879.451653865403812137.stgit@magnolia]
+- [PATCH 1/2] xfs: remove all COW fork extents when remounting readonly]
+  [https://lore.kernel.org/r/163890214556.3375879.16529642634341350231.stgit@magnolia]
 
 === [GIT PULL] xfs: bug fixes for 5.16-rc3.out ===
 Changes in [GIT PULL] xfs: bug fixes for 5.16-rc3:
