@@ -217,23 +217,11 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 Changes in [GIT PULL] xfs: new code for 5.11:
   [https://lore.kernel.org/r/20201218171242.GH6918@magnolia]
 --
-- [PATCH v3 00/10] xfs: strengthen log intent validation
-  [https://lore.kernel.org/r/160729618252.1607103.863261260798043728.stgit@magnolia]
---
-- [PATCH 0/3] xfs: random fixes for 5.11
-  [https://lore.kernel.org/r/160704436050.736504.11280764290946254498.stgit@magnolia]
---
-- [PATCH v6 0/3] xfs: random fixes for disk quota
-  [https://lore.kernel.org/r/1602819508-29033-1-git-send-email-kaixuxia@tencent.com]
---
-- [RFC PATCH 0/3]xfs: random fixes for disk quota
-  [https://lore.kernel.org/r/1600765442-12146-1-git-send-email-kaixuxia@tencent.com]
+- [PATCH 1/3] xfs: detect overflows in bmbt records
+  [https://lore.kernel.org/r/160704437017.736504.13199098088562847416.stgit@magnolia]
 --
 - [PATCH] xfs: show the proper user quota options
   [https://lore.kernel.org/r/1606124332-22100-1-git-send-email-kaixuxia@tencent.com]
---
-- [PATCH v3 RESEND] xfs: introduce xfs_validate_stripe_geometry()
-  [https://lore.kernel.org/r/20201014074550.20552-1-hsiangkao@redhat.com]
 --
 - [PATCH] xfs: fix the forward progress assertion in xfs_iwalk_run_callbacks
   [https://lore.kernel.org/r/20201208171651.GA1943235@magnolia]
