@@ -27,12 +27,6 @@ Changes in [GIT PULL] xfs: new code for 5.17:
 --
 - [PATCH v2] xfs: prevent UAF in xfs_log_item_in_current_chkpt
   [https://lore.kernel.org/r/20211217174500.GI27664@magnolia]
---
-- [PATCH] xfs: hold quota inode ILOCK_EXCL until the end of dqalloc
-  [https://lore.kernel.org/r/20220104234216.GI31583@magnolia]
---
-- [PATCH] xfs: warn about inodes with project id of -1
-  [https://lore.kernel.org/r/20220104234325.GJ31583@magnolia]
 
 === [GIT PULL] xfs: bug fixes for 5.16-rc4.out ===
 Changes in [GIT PULL] xfs: bug fixes for 5.16-rc4:
@@ -68,9 +62,6 @@ Changes in [GIT PULL] xfs: new code for 5.16:
 - [PATCHSET RFC chandan 00/14] xfs: support dynamic btree cursor height
   [https://lore.kernel.org/r/163192854958.416199.3396890438240296942.stgit@magnolia]
 --
-- [PATCH v3 0/4] xfs: fix perag iteration raciness
-  [https://lore.kernel.org/r/20211014175902.1519172-1-bfoster@redhat.com]
---
 - [PATCHSET v4 00/17] xfs: support dynamic btree cursor height
   [https://lore.kernel.org/r/163424261462.756780.16294781570977242370.stgit@magnolia]
 --
@@ -89,9 +80,6 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 --
 - [PATCHSET 0/5] xfs: other stuff for 5.15
   [https://lore.kernel.org/r/162814684332.2777088.14593133806068529811.stgit@magnolia]
---
-- [PATCH] xfs: drop experimental warnings for bigtime and inobtcount
-  [https://lore.kernel.org/r/20210707002313.GG11588@locust]
 --
 - [PATCH 1/3] mm: Add kvrealloc()
   [https://lore.kernel.org/r/20210714023440.2608690-2-david@fromorbit.com]
@@ -114,9 +102,6 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 - [PATCHSET 0/2] xfs: more random tweaks
   [https://lore.kernel.org/r/162872993519.1220748.15526308019664551101.stgit@magnolia]
 --
-- [PATCH] xfs: fix perag structure refcounting error when scrub fails
-  [https://lore.kernel.org/r/20210820050647.GW12640@magnolia]
---
 - [RFC PATCH] generic: regression test for a FALLOC_FL_UNSHARE bug in XFS
   [https://lore.kernel.org/r/20210824003835.GD12640@magnolia]
 --
@@ -136,9 +121,6 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc4:
 === [GIT PULL] xfs: bug fixes for 5.14-rc2.out ===
 Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
   [https://lore.kernel.org/r/20210718163931.GB22402@magnolia]
---
-- [RFC PATCH] xfs: test regression in shrink when EOFS splits a sparse inode cluster
-  [https://lore.kernel.org/r/20210703030422.GE24788@locust]
 --
 - [PATCH] xfs: reset child dir '..' entry when unlinking child
   [https://lore.kernel.org/r/20210703030233.GD24788@locust]
@@ -165,15 +147,6 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 - [PATCH v12 0/8] xfs: Delayed Attributes
   [https://lore.kernel.org/r/20200827003518.1231-1-allison.henderson@oracle.com]
 --
-- [PATCH 00/23] xfs: initial agnumber -> perag conversions for shrink
-  [https://lore.kernel.org/r/20210519012102.450926-1-david@fromorbit.com]
---
-- [PATCH] xfs: perag may be null in xfs_imap()
-  [https://lore.kernel.org/r/20210610223747.GR664593@dread.disaster.area]
---
-- [PATCH] xfs: drop the AGI being passed to xfs_check_agi_freecount
-  [https://lore.kernel.org/r/20210607041529.392451-1-david@fromorbit.com]
---
 - [PATCHSET v3 0/3] xfs: preserve inode health reports for longer
   [https://lore.kernel.org/r/162300204472.1202529.17352653046483745148.stgit@locust]
 --
@@ -189,9 +162,6 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 - [PATCH v2 0/2] xfs: fix buffer use after free on unpin abort
   [https://lore.kernel.org/r/20210621131644.128177-1-bfoster@redhat.com]
 --
-- [PATCH] xfs: fix endianness issue in xfs_ag_shrink_space
-  [https://lore.kernel.org/r/20210621223436.GF3619569@locust]
---
 - [PATCH] xfs: Initialize error in xfs_attr_remove_iter
   [https://lore.kernel.org/r/20210622210852.9511-1-allison.henderson@oracle.com]
 --
@@ -201,9 +171,6 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 === [GIT PULL] xfs: fixes for 5.13-rc4.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
   [https://lore.kernel.org/r/20210529171212.GQ2402049@locust]
---
-- [PATCHSET 0/1] xfs: fixes for online shrink
-  [https://lore.kernel.org/r/162181808760.203030.18032062235913134439.stgit@locust]
 --
 - [PATCHSET v2 0/2] xfs: strengthen validation of extent size hints
   [https://lore.kernel.org/r/162181807472.202929.18194381144862527586.stgit@locust]
@@ -228,14 +195,8 @@ Changes in [GIT PULL] xfs: fixes for 5.13-rc3:
 Changes in [GIT PULL] xfs: more new code for 5.13:
   [https://lore.kernel.org/r/20210507003244.GF8582@magnolia]
 --
-- [PATCH] xfs: don't check agf_btreeblks on pre-lazysbcount filesystems
-  [https://lore.kernel.org/r/20210425154659.GA3122264@magnolia]
---
 - [PATCH] xfs: update superblock counters correctly for !lazysbcount
   [https://lore.kernel.org/r/20210427011201.4175506-1-hsiangkao@redhat.com]
---
-- [PATCH] xfs: count free space btree blocks when scrubbing pre-lazysbcount fses
-  [https://lore.kernel.org/r/20210427030232.GE3122264@magnolia]
 --
 - [PATCH] xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
   [https://lore.kernel.org/r/20210429054416.GJ1251862@magnolia]
@@ -246,9 +207,6 @@ Changes in [GIT PULL] xfs: more new code for 5.13:
 === [GIT PULL] xfs: new code for 5.13.out ===
 Changes in [GIT PULL] xfs: new code for 5.13:
   [https://lore.kernel.org/r/20210429170619.GM3122264@magnolia]
---
-- [PATCHSET 0/7] xfs: small fixes and cleanups
-  [https://lore.kernel.org/r/161472411627.3421582.2040330025988154363.stgit@magnolia]
 --
 - [PATCH v2 0/2] xfs: Skip repetitive warnings about mount options
   [https://lore.kernel.org/r/20210224214323.394286-1-preichl@redhat.com]
@@ -307,9 +265,6 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 - [PATCH] libxfs: expose inobtcount in xfs geometry
   [https://lore.kernel.org/r/20210105162254.706534-1-zlang@redhat.com]
 --
-- [PATCH v6 0/7] xfs: support shrinking free space in the last AG
-  [https://lore.kernel.org/r/20210126125621.3846735-1-hsiangkao@redhat.com]
---
 - [PATCH] xfs: fix incorrect root dquot corruption error when switching group/project quota types
   [https://lore.kernel.org/r/20210202193945.GP7193@magnolia]
 --
@@ -346,6 +301,3 @@ Changes in [GIT PULL] xfs: new code for 5.11:
 --
 - [PATCH] xfs: fix the forward progress assertion in xfs_iwalk_run_callbacks
   [https://lore.kernel.org/r/20201208171651.GA1943235@magnolia]
---
-- [PATCH 0/2] xfs: fix up some reflink+dax interactions
-  [https://lore.kernel.org/r/1d87a83e-ba03-b735-f19a-955a09bcdcf7@redhat.com]
