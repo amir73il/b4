@@ -44,6 +44,7 @@ Changes in [GIT PULL] xfs: new code for 5.16:
 --
 - [PATCH] xfs: punch out data fork delalloc blocks on COW writeback failure
   [https://lore.kernel.org/r/20211021163330.1886516-1-bfoster@redhat.com]
+  Tests: generic/648
 
 === [GIT PULL] xfs: new code for 5.15.out ===
 Changes in [GIT PULL] xfs: new code for 5.15:
@@ -51,15 +52,19 @@ Changes in [GIT PULL] xfs: new code for 5.15:
 --
 - [PATCH 1/2] xfs: remove support for disabling quota accounting on a mounted file system
   [https://lore.kernel.org/r/20210420072256.2326268-2-hch@lst.de]
+  Tests: xfs/007 xfs/106 xfs/220 xfs/300 xfs/301 xfs/302 xfs/303 xfs/304 xfs/305 xfs/306
 --
 - [PATCH 1/3] mm: Add kvrealloc()
   [https://lore.kernel.org/r/20210714023440.2608690-2-david@fromorbit.com]
+  Tests: generic/040 generic/041
 --
 - [PATCH] xfs: only set IOMAP_F_SHARED when providing a srcmap to a write
   [https://lore.kernel.org/r/20210824003739.GC12640@magnolia]
+  Tests: generic/729
 --
 - [PATCH] xfs: fix I_DONTCACHE
   [https://lore.kernel.org/r/20210824023208.392670-1-david@fromorbit.com]
+  Tests: xfs/177 xfs/780
 
 === [GIT PULL] xfs: bug fixes for 5.14-rc4.out ===
 Changes in [GIT PULL] xfs: bug fixes for 5.14-rc4:
@@ -67,9 +72,11 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc4:
 --
 - [PATCH 09/11] xfs: Enforce attr3 buffer recovery order
   [https://lore.kernel.org/r/20210727071012.3358033-10-david@fromorbit.com]
+  Tests: generic/482
 --
 - [PATCH] [RFC] xfs: logging the on disk inode LSN can make it go backwards
   [https://lore.kernel.org/r/20210722110247.3086929-1-david@fromorbit.com]
+  Tests: generic/482
 
 === [GIT PULL] xfs: bug fixes for 5.14-rc2.out ===
 Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
@@ -77,6 +84,7 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
 --
 - [PATCH] xfs: reset child dir '..' entry when unlinking child
   [https://lore.kernel.org/r/20210703030233.GD24788@locust]
+  Tests: xfs/168
 
 === [GIT PULL] xfs: new code for 5.14.out ===
 Changes in [GIT PULL] xfs: new code for 5.14:
@@ -87,6 +95,7 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 --
 - [PATCH v2 0/2] xfs: fix buffer use after free on unpin abort
   [https://lore.kernel.org/r/20210621131644.128177-1-bfoster@redhat.com]
+  Tests: generic/019
 
 === [GIT PULL] xfs: fixes for 5.13-rc4.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
@@ -94,6 +103,7 @@ Changes in [GIT PULL] xfs: fixes for 5.13-rc4:
 --
 - [PATCH 2/6] xfs: bunmapi has unnecessary AG lock ordering issues
   [https://lore.kernel.org/r/20210527045202.1155628-3-david@fromorbit.com]
+  Tests: xfs/538, generic/299
 
 === [GIT PULL] xfs: fixes for 5.13-rc3.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc3:
@@ -105,6 +115,7 @@ Changes in [GIT PULL] xfs: more new code for 5.13:
 --
 - [PATCH] xfs: update superblock counters correctly for !lazysbcount
   [https://lore.kernel.org/r/20210427011201.4175506-1-hsiangkao@redhat.com]
+  Tests: generic/095 generic/300 generic/600 generic/607 xfs/073 xfs/148 xfs/273 xfs/293 xfs/353 xfs/491 xfs/492 xfs/495 xfs/503 xfs/505 xfs/506 xfs/514 xfs/515
 --
 - [PATCH] xfs: fix xfs_reflink_unshare usage of filemap_write_and_wait_range
   [https://lore.kernel.org/r/20210429054416.GJ1251862@magnolia]
@@ -115,6 +126,7 @@ Changes in [GIT PULL] xfs: new code for 5.13:
 --
 - [PATCH v2 0/2] xfs: Skip repetitive warnings about mount options
   [https://lore.kernel.org/r/20210224214323.394286-1-preichl@redhat.com]
+  Tests: xfs/528
 --
 - [PATCH] xfs: ensure xfs_errortag_random_default matches XFS_ERRTAG_MAX
   [https://lore.kernel.org/r/20210309184205.18675-1-hsiangkao@aol.com]
@@ -132,6 +144,7 @@ Changes in [GIT PULL] xfs: fixes for 5.12-rc1:
 --
 - [PATCH] xfs: don't reuse busy extents on extent trim
   [https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com]
+  Tests: generic/019
 
 === [GIT PULL] xfs: new code for 5.12.out ===
 Changes in [GIT PULL] xfs: new code for 5.12:
@@ -145,6 +158,7 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 --
 - [RFC] xfs: fix up non-directory creation in SGID directories when umask S_IXGRP
   [https://lore.kernel.org/r/1647929219-5388-1-git-send-email-xuyang2018.jy@fujitsu.com]
+  Tests: generic/622
 --
 - [PATCH] xfs: set inode size after creating symlink
   [https://lore.kernel.org/r/20210121151912.4429-1-jeffrey.mitchell@starlab.io]
@@ -160,9 +174,11 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 --
 - [PATCH] xfs: restore shutdown check in mapped write fault path
   [https://lore.kernel.org/r/20210210170112.172734-1-bfoster@redhat.com]
+  Tests: generic/019
 --
 - [PATCH] xfs: consider shutdown in bmapbt cursor delete assert
   [https://lore.kernel.org/r/20210211143911.289537-1-bfoster@redhat.com]
+  Tests: generic/019
 
 === [GIT PULL] xfs: new code for 5.11.out ===
 Changes in [GIT PULL] xfs: new code for 5.11:
@@ -173,6 +189,7 @@ Changes in [GIT PULL] xfs: new code for 5.11:
 --
 - [PATCH] xfs: show the proper user quota options
   [https://lore.kernel.org/r/1606124332-22100-1-git-send-email-kaixuxia@tencent.com]
+  Tests: xfs/513
 --
 - [PATCH] xfs: fix the forward progress assertion in xfs_iwalk_run_callbacks
   [https://lore.kernel.org/r/20201208171651.GA1943235@magnolia]
