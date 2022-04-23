@@ -146,6 +146,10 @@ Changes in [GIT PULL] xfs: fixes for 5.12-rc1:
   [https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com]
   Tests: generic/019
 
+- [PATCH v2] xfs: use current->journal_info for detecting transaction recursion
+  [https://lore.kernel.org/r/20210223060840.GV4662@dread.disaster.area]
+  Tests: xfs/229
+
 === [GIT PULL] xfs: new code for 5.12.out ===
 Changes in [GIT PULL] xfs: new code for 5.12:
   [https://lore.kernel.org/r/20210219041244.GZ7193@magnolia]

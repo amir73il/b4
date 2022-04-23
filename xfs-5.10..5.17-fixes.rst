@@ -119,6 +119,9 @@
 - `[PATCH] xfs: don't reuse busy extents on extent trim <https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com>`_
   Tests: generic/019
 
+- `[PATCH v2] xfs: use current->journal_info for detecting transaction recursion <https://lore.kernel.org/r/20210223060840.GV4662@dread.disaster.area>`_
+  Tests: xfs/229
+
 
 `[GIT PULL] xfs: new code for 5.12: <https://lore.kernel.org/r/20210219041244.GZ7193@magnolia>`_
 
