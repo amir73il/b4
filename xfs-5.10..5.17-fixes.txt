@@ -145,6 +145,9 @@ Changes in [GIT PULL] xfs: new code for 5.13:
 --
 - [PATCH] xfs: fix return of uninitialized value in variable error
   [https://lore.kernel.org/r/20210409141834.667163-1-colin.king@canonical.com]
+--
+- [PATCH 1/4] xfs: drop submit side trans alloc for append ioends
+  [https://lore.kernel.org/linux-xfs/20210405145903.629152-2-bfoster@redhat.com]
 
 === [GIT PULL] xfs: fixes for 5.12-rc4.out ===
 Changes in [GIT PULL] xfs: fixes for 5.12-rc4:

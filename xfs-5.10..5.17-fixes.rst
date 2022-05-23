@@ -116,6 +116,7 @@
 
 - `[PATCH] xfs: fix return of uninitialized value in variable error <https://lore.kernel.org/r/20210409141834.667163-1-colin.king@canonical.com>`_
 
+- `[PATCH 1/4] xfs: drop submit side trans alloc for append ioends <https://lore.kernel.org/linux-xfs/20210405145903.629152-2-bfoster@redhat.com>`_
 
 `[GIT PULL] xfs: fixes for 5.12-rc4: <https://lore.kernel.org/r/20210318191436.GL22100@magnolia>`_
 
