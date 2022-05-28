@@ -62,6 +62,8 @@
 - `[PATCH] [RFC] xfs: logging the on disk inode LSN can make it go backwards <https://lore.kernel.org/r/20210722110247.3086929-1-david@fromorbit.com>`_
   Tests: generic/482
 
+- `[PATCH 08/39] xfs: Fix CIL throttle hang when CIL space used going backwards <https://lore.kernel.org/r/20210603052240.171998-9-david@fromorbit.com>`_
+
 
 `[GIT PULL] xfs: bug fixes for 5.14-rc2: <https://lore.kernel.org/r/20210718163931.GB22402@magnolia>`_
 

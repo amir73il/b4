@@ -96,6 +96,9 @@ Changes in [GIT PULL] xfs: new code for 5.14:
 - [PATCH v2 0/2] xfs: fix buffer use after free on unpin abort
   [https://lore.kernel.org/r/20210621131644.128177-1-bfoster@redhat.com]
   Tests: generic/019
+--
+- [PATCH 08/39] xfs: Fix CIL throttle hang when CIL space used going backwards
+  [https://lore.kernel.org/r/20210603052240.171998-9-david@fromorbit.com]
 
 === [GIT PULL] xfs: fixes for 5.13-rc3.out ===
 Changes in [GIT PULL] xfs: fixes for 5.13-rc3:
