@@ -118,9 +118,6 @@
 `[GIT PULL] xfs: fixes for 5.12-rc1: <https://lore.kernel.org/r/20210227173725.GE7272@magnolia>`_
 
 
-- `[PATCH] xfs: don't reuse busy extents on extent trim <https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com>`_
-  Tests: generic/019
-
 - `[PATCH v2] xfs: use current->journal_info for detecting transaction recursion <https://lore.kernel.org/r/20210223060840.GV4662@dread.disaster.area>`_
   Tests: xfs/229
 
