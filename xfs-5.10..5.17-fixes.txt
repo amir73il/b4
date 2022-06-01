@@ -160,9 +160,6 @@ Changes in [GIT PULL] xfs: new code for 5.12:
 - [PATCH v3] xfs: fix an ABBA deadlock in xfs_rename
   [https://lore.kernel.org/r/20210111225053.GE1164246@magnolia]
 --
-- [PATCH V15 00/16] Bail out if transaction can cause extent count to overflow
-  [https://lore.kernel.org/r/20210126063232.3648053-1-chandanrlinux@gmail.com]
---
 - [RFC] xfs: fix up non-directory creation in SGID directories when umask S_IXGRP
   [https://lore.kernel.org/r/1647929219-5388-1-git-send-email-xuyang2018.jy@fujitsu.com]
   Tests: generic/622
