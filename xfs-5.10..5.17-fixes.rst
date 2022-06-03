@@ -79,13 +79,6 @@
   Tests: generic/019
 
 
-`[GIT PULL] xfs: fixes for 5.13-rc4: <https://lore.kernel.org/r/20210529171212.GQ2402049@locust>`_
-
-
-- `[PATCH 2/6] xfs: bunmapi has unnecessary AG lock ordering issues <https://lore.kernel.org/r/20210527045202.1155628-3-david@fromorbit.com>`_
-  Tests: xfs/538, generic/299
-
-
 `[GIT PULL] xfs: fixes for 5.13-rc3: <https://lore.kernel.org/r/20210522041115.GB15971@magnolia>`_
 
 
