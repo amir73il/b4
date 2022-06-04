@@ -30,8 +30,17 @@
 - `[PATCH] xfs: remove incorrect ASSERT in xfs_rename <https://lore.kernel.org/r/bbb4b6d5-744c-11c8-fcda-62777e8d7b19@redhat.com>`_
 
 
+`[GIT PULL] xfs: bug fixes for 5.16-rc2: <https://lore.kernel.org/r/20211127200606.GB8467@magnolia>`_
+
+
+- `[PATCH v2] xfs: Fix the free logic of state in xfs_attr_node_hasname <https://lore.kernel.org/r/1635750020-2275-1-git-send-email-xuyang2018.jy@fujitsu.com>`_
+  Tests: xfs/104 xfs/126
+
+
 `[GIT PULL] xfs: new code for 5.16: <https://lore.kernel.org/r/20211102184650.GH24307@magnolia>`_
 
+
+- `[PATCH] xfs: use kmem_cache_free() for kmem_cache objects <https://lore.kernel.org/r/20210929212347.1139666-1-rkovhaev@gmail.com>`_
 
 - `[PATCH] xfs: punch out data fork delalloc blocks on COW writeback failure <https://lore.kernel.org/r/20211021163330.1886516-1-bfoster@redhat.com>`_
   Tests: generic/648
