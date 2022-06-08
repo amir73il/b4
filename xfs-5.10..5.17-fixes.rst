@@ -134,6 +134,8 @@
 - `[RFC] xfs: fix up non-directory creation in SGID directories when umask S_IXGRP <https://lore.kernel.org/r/1647929219-5388-1-git-send-email-xuyang2018.jy@fujitsu.com>`_
   Tests: generic/622
 
+- `[PATCH 0/2] xfs: don't drain buffer lru on freeze <https://lore.kernel.org/r/20201210144607.1922026-1-bfoster@redhat.com>`_
+
 - `[PATCH] xfs: set inode size after creating symlink <https://lore.kernel.org/r/20210121151912.4429-1-jeffrey.mitchell@starlab.io>`_
 
 - `[PATCH v2 1/9] xfs: sync lazy sb accounting on quiesce of read-only mounts <https://lore.kernel.org/r/20210121154526.1852176-2-bfoster@redhat.com>`_
