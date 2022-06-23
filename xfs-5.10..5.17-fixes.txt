@@ -1,3 +1,10 @@
+=== [GIT PULL] xfs: fixes for 5.17-rc6.out ===
+Changes in [GIT PULL] xfs: fixes for 5.17-rc6:
+  [https://lore.kernel.org/r/20220226050421.GZ8313@magnolia]
+--
+- [PATCH] xfs: only bother with sync_filesystem during readonly remount
+  [https://lore.kernel.org/r/20220208200908.GD8313@magnolia]
+
 === [GIT PULL] xfs: fixes for 5.17-rc3.out ===
 Changes in [GIT PULL] xfs: fixes for 5.17-rc3:
   [https://lore.kernel.org/r/20220205025606.GX8313@magnolia]
@@ -7,6 +14,13 @@ Changes in [GIT PULL] xfs: fixes for 5.17-rc3:
 --
 - [PATCH 2/5] xfs: fallocate() should call file_modified()
   [https://lore.kernel.org/r/20220131233920.784181-3-david@fromorbit.com]
+
+=== [GIT PULL] vfs: fixes for 5.17-rc1.out ===
+Changes in [GIT PULL] vfs: fixes for 5.17-rc1:
+  [https://lore.kernel.org/r/20220205025100.GW8313@magnolia]
+--
+- [PATCHSET 0/4] vfs: actually return fs errors from ->sync_fs
+  [https://lore.kernel.org/r/164316348940.2600168.17153575889519271710.stgit@magnolia]
 
 === [GIT PULL] xfs: new code for 5.17.out ===
 Changes in [GIT PULL] xfs: new code for 5.17:

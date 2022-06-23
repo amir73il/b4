@@ -38,6 +38,15 @@ Changes in [GIT PULL] xfs: fixes for 5.17-rc1:
 ---
 
 ---
+Changes in [GIT PULL] vfs: fixes for 5.17-rc1:
+  [https://lore.kernel.org/r/20220205025100.GW8313@magnolia]
+
+- [PATCHSET 0/4] vfs: actually return fs errors from ->sync_fs
+  [https://lore.kernel.org/r/164316348940.2600168.17153575889519271710.stgit@magnolia]
+
+---
+
+---
 Changes in [GIT PULL] xfs: legacy Irix ioctl housecleaning for 5.17-rc1, part 2:
   [https://lore.kernel.org/r/20220120185920.GP13540@magnolia]
 

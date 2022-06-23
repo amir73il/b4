@@ -29,6 +29,11 @@
 - `[PATCHSET v2 0/3] xfs: kill dead ioctls for 5.17 <https://lore.kernel.org/r/164194336019.3069025.16691952615002573445.stgit@magnolia>`_
 
 
+`[GIT PULL] vfs: fixes for 5.17-rc1: <https://lore.kernel.org/r/20220205025100.GW8313@magnolia>`_
+
+- `[PATCHSET 0/4] vfs: actually return fs errors from ->sync_fs <https://lore.kernel.org/r/164316348940.2600168.17153575889519271710.stgit@magnolia>`_
+
+
 `[GIT PULL] xfs: new code for 5.17: <https://lore.kernel.org/r/20220110220615.GA656707@magnolia>`_
 
 

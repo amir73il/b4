@@ -1,9 +1,20 @@
+`[GIT PULL] xfs: fixes for 5.17-rc6: <https://lore.kernel.org/r/20220226050421.GZ8313@magnolia>`_
+
+
+- `[PATCH] xfs: only bother with sync_filesystem during readonly remount <https://lore.kernel.org/r/20220208200908.GD8313@magnolia>`_
+
+
 `[GIT PULL] xfs: fixes for 5.17-rc3: <https://lore.kernel.org/r/20220205025606.GX8313@magnolia>`_
 
 
 - `[PATCHSET 0/1] xfs: tighten GETBMAP input validation <https://lore.kernel.org/r/164316351504.2600306.5900193386929839795.stgit@magnolia>`_
 
 - `[PATCH 2/5] xfs: fallocate() should call file_modified() <https://lore.kernel.org/r/20220131233920.784181-3-david@fromorbit.com>`_
+
+
+`[GIT PULL] vfs: fixes for 5.17-rc1: <https://lore.kernel.org/r/20220205025100.GW8313@magnolia>`_
+
+- `[PATCHSET 0/4] vfs: actually return fs errors from ->sync_fs <https://lore.kernel.org/r/164316348940.2600168.17153575889519271710.stgit@magnolia>`_
 
 
 `[GIT PULL] xfs: new code for 5.17: <https://lore.kernel.org/r/20220110220615.GA656707@magnolia>`_
