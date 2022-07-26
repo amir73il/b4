@@ -85,13 +85,6 @@
 - `[PATCH 08/39] xfs: Fix CIL throttle hang when CIL space used going backwards <https://lore.kernel.org/r/20210603052240.171998-9-david@fromorbit.com>`_
 
 
-`[GIT PULL] xfs: bug fixes for 5.14-rc2: <https://lore.kernel.org/r/20210718163931.GB22402@magnolia>`_
-
-
-- `[PATCH] xfs: reset child dir '..' entry when unlinking child <https://lore.kernel.org/r/20210703030233.GD24788@locust>`_
-  Tests: xfs/168
-
-
 `[GIT PULL] xfs: new code for 5.14: <https://lore.kernel.org/r/20210702201643.GA13765@locust>`_
 
 

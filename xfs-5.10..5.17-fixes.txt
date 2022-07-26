@@ -103,14 +103,6 @@ Changes in [GIT PULL] xfs: bug fixes for 5.14-rc4:
   [https://lore.kernel.org/r/20210722110247.3086929-1-david@fromorbit.com]
   Tests: generic/482
 
-=== [GIT PULL] xfs: bug fixes for 5.14-rc2.out ===
-Changes in [GIT PULL] xfs: bug fixes for 5.14-rc2:
-  [https://lore.kernel.org/r/20210718163931.GB22402@magnolia]
---
-- [PATCH] xfs: reset child dir '..' entry when unlinking child
-  [https://lore.kernel.org/r/20210703030233.GD24788@locust]
-  Tests: xfs/168
-
 === [GIT PULL] xfs: new code for 5.14.out ===
 Changes in [GIT PULL] xfs: new code for 5.14:
   [https://lore.kernel.org/r/20210702201643.GA13765@locust]
