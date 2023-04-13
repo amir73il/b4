@@ -126,6 +126,9 @@
 `[GIT PULL] xfs: fixes for 5.12-rc1: <https://lore.kernel.org/r/20210227173725.GE7272@magnolia>`_
 
 
+- `[PATCH] xfs: don't reuse busy extents on extent trim <https://lore.kernel.org/r/20210222153442.897089-1-bfoster@redhat.com>`_
+  Tests: generic/019
+
 - `[PATCH v2] xfs: use current->journal_info for detecting transaction recursion <https://lore.kernel.org/r/20210223060840.GV4662@dread.disaster.area>`_
   Tests: xfs/229
 
@@ -145,6 +148,8 @@
 - `[PATCH v2 1/9] xfs: sync lazy sb accounting on quiesce of read-only mounts <https://lore.kernel.org/r/20210121154526.1852176-2-bfoster@redhat.com>`_
 
 - `[PATCH 01/16] xfs: fix chown leaking delalloc quota blocks when fssetxattr fails <https://lore.kernel.org/r/161223139756.491593.10895138838199018804.stgit@magnolia>`_
+
+- `[PATCH 16/16] xfs: shut down the filesystem if we screw up quota errors <https://lore.kernel.org/all/161223148857.491593.12074155866887169690.stgit@magnolia>`_
 
 - `[PATCH] xfs: fix incorrect root dquot corruption error when switching group/project quota types <https://lore.kernel.org/r/20210202193945.GP7193@magnolia>`_
 
